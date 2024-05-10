@@ -1,23 +1,32 @@
 //1. Declare uma variável de nome weight
+
+```js
 let weight;
+```
 
 //2. Que tipo de dado é a variável a cima?
+```js
 console.log(typeof weight)
+```
 
 /* 
 3. Declare uma variável e atribua valores para cada um dos dados:
 
+```js
 nome: String
 age: number (integer)
 stars: number (float)
 isSubscribed: Boolean
+```
 
 */
 
+```js
 let name = 'Jhon'
 let age = 30
 let float = 24.5
 let isSubscribed = true 
+```
 
 /* 
 4.1 Atribua a ela as mesmas propriedades e valores do exercício 3.
@@ -30,6 +39,7 @@ Atenção, substitua <name> <age>  <weight> pelos valores de cada propriedade do
 
 */
 
+```js
 let student = {
 name: 'Jhon',
 age: 30,
@@ -38,30 +48,38 @@ isSubscribed: true
 }
 
 console.log (`${student.name} de idade ${student.age} pesa ${student.weight} kg`)
+```
 
 
 // 5. Declare uma variável do tipo Array, de nome students e atribua a ela nenhum valor, ou seja, somente o Array vazio 
 
+```js
 let students = []
+```
 
 /* 
 6. Retribua valor para a variável a cima, colocando dentro dela o objeto student da questão 4. 
 (não copiar e colar o objeto. mas usar o objeto criado e inserir ele no Array)
 */
 
+```js
 students = [
   student
 ]
 
 console.log(students)
+```
 
 
 // 7. Coloque no console o valor a posição zero do Array a cima 
 
+```js
 console.log(student[0])
+```
 
 // 8. Crie um novo students e coloque na posição 1 do Array students
 
+```js
 const Jhon = {
   name: 'Jhon',
   age: 30,
@@ -70,6 +88,7 @@ const Jhon = {
 }
 
 students[1] = Jhon 
+```
 
 /*
 9. Sem rodar o código responda qual é a resposta do código abaixo e porque?
@@ -80,8 +99,10 @@ var a = 1
 
 */
 
+```js
 console.log(a)
 var a = 1 
+```
 
 
 
